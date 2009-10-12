@@ -10,135 +10,38 @@ audio format. It can also manipulate Ogg streams on an individual
 packet/page level.
 
 Runtime requirements:
-  python-2.5.2-4
+  python-2.5.4-10
 
 Build requirements:
-  cygwin-1.5.25-15
-  cygport-0.4.3-1
-  python-2.5.2-4
+  cygwin-1.7.0-62
+  cygport-0.9.9-1
+  python-2.5.4-10
 
 Canonical website:
-  http://code.google.com/p/quodlibet/wiki/Mutagen
+  http://code.google.com/p/mutagen
 
 Canonical download:
-  http://quodlibet.googlecode.com/files/
+  http://mutagen.googlecode.com/files/
 
 -------------------------------------------
 
 Build instructions:
-  unpack python-mutagen-1.15-X-src.tar.bz2
+  unpack python-mutagen-1.17-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./python-mutagen-1.15-X.cygport all
+  cygport ./python-mutagen-1.17-X.cygport all
 
 This will create:
-  /usr/src/python-mutagen-1.15-X-src.tar.bz2
-  /usr/src/python-mutagen-1.15-X.tar.bz2
+  /usr/src/python-mutagen-1.17-X-src.tar.bz2
+  /usr/src/python-mutagen-1.17-X.tar.bz2
 
 -------------------------------------------
 
-Files included in the binary package:
-
-  /usr/bin/mid3iconv
-  /usr/bin/mid3v2
-  /usr/bin/moggsplit
-  /usr/bin/mutagen-inspect
-  /usr/bin/mutagen-pony
-  /usr/lib/python2.5/site-packages/mutagen-1.15-py2.5.egg-info
-  /usr/lib/python2.5/site-packages/mutagen/__init__.py
-  /usr/lib/python2.5/site-packages/mutagen/__init__.pyc
-  /usr/lib/python2.5/site-packages/mutagen/__init__.pyo
-  /usr/lib/python2.5/site-packages/mutagen/_constants.py
-  /usr/lib/python2.5/site-packages/mutagen/_constants.pyc
-  /usr/lib/python2.5/site-packages/mutagen/_constants.pyo
-  /usr/lib/python2.5/site-packages/mutagen/_util.py
-  /usr/lib/python2.5/site-packages/mutagen/_util.pyc
-  /usr/lib/python2.5/site-packages/mutagen/_util.pyo
-  /usr/lib/python2.5/site-packages/mutagen/_vorbis.py
-  /usr/lib/python2.5/site-packages/mutagen/_vorbis.pyc
-  /usr/lib/python2.5/site-packages/mutagen/_vorbis.pyo
-  /usr/lib/python2.5/site-packages/mutagen/apev2.py
-  /usr/lib/python2.5/site-packages/mutagen/apev2.pyc
-  /usr/lib/python2.5/site-packages/mutagen/apev2.pyo
-  /usr/lib/python2.5/site-packages/mutagen/asf.py
-  /usr/lib/python2.5/site-packages/mutagen/asf.pyc
-  /usr/lib/python2.5/site-packages/mutagen/asf.pyo
-  /usr/lib/python2.5/site-packages/mutagen/easyid3.py
-  /usr/lib/python2.5/site-packages/mutagen/easyid3.pyc
-  /usr/lib/python2.5/site-packages/mutagen/easyid3.pyo
-  /usr/lib/python2.5/site-packages/mutagen/flac.py
-  /usr/lib/python2.5/site-packages/mutagen/flac.pyc
-  /usr/lib/python2.5/site-packages/mutagen/flac.pyo
-  /usr/lib/python2.5/site-packages/mutagen/id3.py
-  /usr/lib/python2.5/site-packages/mutagen/id3.pyc
-  /usr/lib/python2.5/site-packages/mutagen/id3.pyo
-  /usr/lib/python2.5/site-packages/mutagen/m4a.py
-  /usr/lib/python2.5/site-packages/mutagen/m4a.pyc
-  /usr/lib/python2.5/site-packages/mutagen/m4a.pyo
-  /usr/lib/python2.5/site-packages/mutagen/monkeysaudio.py
-  /usr/lib/python2.5/site-packages/mutagen/monkeysaudio.pyc
-  /usr/lib/python2.5/site-packages/mutagen/monkeysaudio.pyo
-  /usr/lib/python2.5/site-packages/mutagen/mp3.py
-  /usr/lib/python2.5/site-packages/mutagen/mp3.pyc
-  /usr/lib/python2.5/site-packages/mutagen/mp3.pyo
-  /usr/lib/python2.5/site-packages/mutagen/mp4.py
-  /usr/lib/python2.5/site-packages/mutagen/mp4.pyc
-  /usr/lib/python2.5/site-packages/mutagen/mp4.pyo
-  /usr/lib/python2.5/site-packages/mutagen/musepack.py
-  /usr/lib/python2.5/site-packages/mutagen/musepack.pyc
-  /usr/lib/python2.5/site-packages/mutagen/musepack.pyo
-  /usr/lib/python2.5/site-packages/mutagen/ogg.py
-  /usr/lib/python2.5/site-packages/mutagen/ogg.pyc
-  /usr/lib/python2.5/site-packages/mutagen/ogg.pyo
-  /usr/lib/python2.5/site-packages/mutagen/oggflac.py
-  /usr/lib/python2.5/site-packages/mutagen/oggflac.pyc
-  /usr/lib/python2.5/site-packages/mutagen/oggflac.pyo
-  /usr/lib/python2.5/site-packages/mutagen/oggspeex.py
-  /usr/lib/python2.5/site-packages/mutagen/oggspeex.pyc
-  /usr/lib/python2.5/site-packages/mutagen/oggspeex.pyo
-  /usr/lib/python2.5/site-packages/mutagen/oggtheora.py
-  /usr/lib/python2.5/site-packages/mutagen/oggtheora.pyc
-  /usr/lib/python2.5/site-packages/mutagen/oggtheora.pyo
-  /usr/lib/python2.5/site-packages/mutagen/oggvorbis.py
-  /usr/lib/python2.5/site-packages/mutagen/oggvorbis.pyc
-  /usr/lib/python2.5/site-packages/mutagen/oggvorbis.pyo
-  /usr/lib/python2.5/site-packages/mutagen/optimfrog.py
-  /usr/lib/python2.5/site-packages/mutagen/optimfrog.pyc
-  /usr/lib/python2.5/site-packages/mutagen/optimfrog.pyo
-  /usr/lib/python2.5/site-packages/mutagen/trueaudio.py
-  /usr/lib/python2.5/site-packages/mutagen/trueaudio.pyc
-  /usr/lib/python2.5/site-packages/mutagen/trueaudio.pyo
-  /usr/lib/python2.5/site-packages/mutagen/wavpack.py
-  /usr/lib/python2.5/site-packages/mutagen/wavpack.pyc
-  /usr/lib/python2.5/site-packages/mutagen/wavpack.pyo
-  /usr/share/doc/python-mutagen-1.15/API-NOTES
-  /usr/share/doc/python-mutagen-1.15/COPYING
-  /usr/share/doc/python-mutagen-1.15/NEWS
-  /usr/share/doc/python-mutagen-1.15/README
-  /usr/share/doc/python-mutagen-1.15/TODO
-  /usr/share/doc/python-mutagen-1.15/TUTORIAL
-  /usr/share/man/man1/mid3iconv.1.gz
-  /usr/share/man/man1/mid3v2.1.gz
-  /usr/share/man/man1/moggsplit.1.gz
-  /usr/share/man/man1/mutagen-inspect.1.gz
-  /usr/share/man/man1/mutagen-pony.1.gz
-
-------------------
-
 Port Notes:
 
------ version 1.15-1 -----
-Version bump.
-
------ version 1.14-1 -----
-Version bump.
-
------ version 1.13-1 -----
-Version bump.
-
------ version 1.11-1 -----
-Initial release for Cygwin.
+----- version 1.17-1 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
