@@ -10,12 +10,12 @@ audio format. It can also manipulate Ogg streams on an individual
 packet/page level.
 
 Runtime requirements:
-  python-2.5.4-10
+  python-2.6.5-1
 
 Build requirements:
-  cygwin-1.7.0-62
-  cygport-0.9.9-1
-  python-2.5.4-10
+  cygwin-1.7.5-1
+  cygport-0.9.83-1
+  python-2.6.5-1
 
 Canonical website:
   http://code.google.com/p/mutagen
@@ -26,19 +26,22 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack python-mutagen-1.17-X-src.tar.bz2
+  unpack python-mutagen-1.19-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./python-mutagen-1.17-X.cygport all
+  cygport ./python-mutagen-1.19-X.cygport all
 
 This will create:
-  /usr/src/python-mutagen-1.17-X-src.tar.bz2
-  /usr/src/python-mutagen-1.17-X.tar.bz2
+  /usr/src/python-mutagen-1.19-X-src.tar.bz2
+  /usr/src/python-mutagen-1.19-X.tar.bz2
 
 -------------------------------------------
 
 Port Notes:
+
+----- version 1.19-1 -----
+Version bump, built for Python 2.6.
 
 ----- version 1.17-1 -----
 Initial release for Cygwin 1.7.
