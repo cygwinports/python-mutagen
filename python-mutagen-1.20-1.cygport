@@ -1,8 +1,0 @@
-ORIG_PN="mutagen"
-inherit distutils
-
-DESCRIPTION="Python audio metadata library"
-HOMEPAGE="http://code.google.com/p/mutagen"
-SRC_URI="http://mutagen.googlecode.com/files/${ORIG_PN}-${PV}.tar.gz"
-
-DOCS="API-NOTES TUTORIAL"
