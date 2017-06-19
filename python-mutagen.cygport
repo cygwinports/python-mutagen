@@ -15,6 +15,8 @@ streams on an individual packet/page level."
 HOMEPAGE="https://mutagen.readthedocs.org/"
 SRC_URI="https://github.com/quodlibet/mutagen/releases/download/release-${VERSION}/mutagen-${VERSION}.tar.gz"
 
+ARCH=noarch
+
 python3_mutagen_CONTENTS+=" usr/bin/ usr/share/man/man1/"
 
 DOCS="API-NOTES TUTORIAL"
